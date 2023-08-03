@@ -1,0 +1,91 @@
+### Keil ###
+# something maybe need to add
+# *.bat  # generate batch file
+# output/project_name # uv project generate without file ext
+# *.SRC # generate source file
+# *.src
+
+# Prerequisites
+*.d
+*.dep
+# Object files
+*.o
+*.obj
+*.OBJ
+
+# Listing Files
+*.COD
+*.cod
+*.[Ii]
+*.LST
+*.lst
+*.MAP
+*.map
+*.[Mm]51
+*.[Mm]66
+*.SCR
+*.scr
+
+# LINK output
+*.ABS
+
+# Libraries
+*.lib
+*.LIB
+
+
+# uv output
+*.lnp
+*.build_log.htm
+*.HEX
+*.hex
+
+
+# Build Files
+*._IA
+*.__[Ii]
+*._[Ii][Ii]
+
+# project
+*.uvgui.*
+*.uvguix.*
+
+### KiCad ###
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+### KiCad Patch ###
+rescue-backup/
+
+*.tsv
+bom/
+
+# Gerber export output
+out/
